@@ -1,0 +1,2 @@
+- Extract file ckeditor_4.16.1_standard.zip
+- Rename foldernya menjadi ckeditor4
