@@ -23,7 +23,7 @@
     </div>
         <div class="col-sm-3">
             <select name="short" id="short" class="form-control">
-                <option value="no_pendaftaran">No Pendaftaran</option>
+                <option value="no_permohonan">No Pendaftaran</option>
                 <option value="tgl_pendaftaran">Tgl Pendaftaran</option>
             </select>
         </div>
@@ -55,8 +55,8 @@
             }
             ?>
             <div class="item">
-                <div class=""><?=$d->no_pendaftaran;?></div>
-                <div class="title"><a href="https://pdki-indonesia.dgip.go.id/detail/<?=$d->no_pendaftaran;?>?type=<?=$d->hki;?>&keyword=<?=$d->no_pendaftaran;?>" target="_blank"><?=$d->judul;?></a></div>
+                <div class=""><?=$d->no_permohonan;?></div>
+                <div class="title"><a href="https://pdki-indonesia.dgip.go.id/detail/<?=$d->no_permohonan;?>?type=<?=$d->hki;?>&keyword=<?=$d->no_permohonan;?>" target="_blank"><?=$d->judul;?></a></div>
                 <div class="abstrack"><?=$abs;?></div>
                 
             </div>
